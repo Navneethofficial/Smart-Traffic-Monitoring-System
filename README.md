@@ -808,16 +808,6 @@ Recommended:
 ✅ Most common formats OpenCV supports
 ```
 
-### Supported Browsers
-```
-✅ Chrome (recommended)
-✅ Firefox
-✅ Safari
-✅ Edge
-✅ Opera
-✅ Mobile browsers
-```
-
 ### Performance
 ```
 Processing Speed:
@@ -853,26 +843,6 @@ Video Length:
 
 ---
 
-## 🤝 Contributing
-
-### Ways to Contribute
-- Report bugs or issues
-- Suggest new features
-- Improve documentation
-- Share your use cases
-- Provide feedback
-
-### Feature Requests
-If you'd like additional features:
-- Direction detection (incoming/outgoing)
-- Vehicle type classification display
-- Export to Excel/CSV
-- Email notifications for violations
-- Multiple counting lines
-- Time-based filtering
-
----
-
 ## 📝 License
 
 This project uses:
@@ -882,43 +852,6 @@ This project uses:
 - **OpenCV**: Apache 2.0 License
 
 ---
-
-## ⚠️ Disclaimer
-
-This software is provided "as is" for research and educational purposes. The accuracy of speed measurements depends on proper calibration and setup. This system is not intended to replace certified speed enforcement equipment. Always verify critical measurements with professional-grade equipment. Consult local regulations before deploying for any official use.
-
----
-
-## 🎯 Quick Reference
-
-### Essential Commands
-```bash
-# Start system
-python start_enhanced.py
-
-# Access pages
-Main:        http://localhost:5000
-Calibration: http://localhost:5000/calibration
-Analytics:   http://localhost:5000/analytics
-```
-
-### Default Settings
-```
-Confidence: 0.30
-Speed Limit: 60 km/h
-Pixels/Meter: 8.5 (must calibrate!)
-GPS: Bangalore (12.9716, 77.5946)
-```
-
-### Keyboard Shortcuts (in terminal)
-```
-Ctrl+C: Stop server
-F5: Refresh page
-F12: Open browser console (for debugging)
-```
-
----
-
 
 ## 🚀 What's Next?
 
@@ -934,37 +867,8 @@ Future enhancements could include:
 
 ---
 
-## ✅ Checklist for First-Time Users
+## ⚠️ Disclaimer
 
-```
-Setup:
-[ ] Python 3.8+ installed
-[ ] Flask installed (pip install Flask)
-[ ] All files in correct folders
-[ ] templates/ folder created
-[ ] 3 HTML files in templates/
+This software is provided "as is" for research and educational purposes. The accuracy of speed measurements depends on proper calibration and setup. This system is not intended to replace certified speed enforcement equipment. Always verify critical measurements with professional-grade equipment. Consult local regulations before deploying for any official use.
 
-First Run:
-[ ] Run: python start_enhanced.py
-[ ] Open: http://localhost:5000
-[ ] Click on map to set GPS
-[ ] Status shows "Active"
-[ ] Go to /calibration
-[ ] Upload test video
-[ ] Calibrate pixels_per_meter
-
-First Processing:
-[ ] Return to main page
-[ ] Upload video
-[ ] Enter calibration value
-[ ] Set speed limit
-[ ] Process video
-[ ] Download results
-
-Verify:
-[ ] Video shows speeds (not "?")
-[ ] JSON report created
-[ ] Analytics page loads
-[ ] Charts display properly
-```
 **Made with ❤️ for Smart Traffic Management**
